@@ -1,0 +1,58 @@
+[
+    {
+        "question": "John has 2 umbrellas in his house and 1 in the car.  If they cost $8 each, how much did he pay in total?",
+        "answer": "He has 2+1=<<2+1=3>>3 umbrellas\nThat means he paid 3*8=$<<3*8=24>>24\n#### 24",
+        "reasoning": "John has 2 umbrellas in his house and 1 in the car, which means he has a total of 3 umbrellas.\nIf each umbrella costs $8, then to find the total cost, you multiply the number of umbrellas by the cost of each umbrella:\nTotal cost = Number of umbrellas × Cost per umbrella\nTotal cost = 3 umbrellas × $8/umbrella\nTotal cost = $24\nSo, John paid a total of $24 for the umbrellas.",
+        "confusion_score": 0.027278185,
+        "time_consumption": 0.6869971752166748
+    },
+    {
+        "question": "Karen is constantly trying to stop the raccoons from getting in her trash. The first lock she tries stalls them for 5 minutes. The next lock stalls them for 3 minutes less than three times as long as the first lock. When Karen tries both locks at once, it stalled the raccoons for five times as long as the second lock alone. How long is that?",
+        "answer": "First find how long the second lock stalls them: 5 minutes * 3 - 3 minutes = <<5*3-3=12>>12 minutes\nThen multiply that amount by 5 to find the total time the third lock stall the raccoon: 12 minutes * 5 = <<12*5=60>>60 minutes\n#### 60",
+        "reasoning": "First, we're told that the first lock stalls the raccoons for 5 minutes.\nThe second lock stalls them for 3 minutes less than three times as long as the first lock. So, if we let the time the first lock stalls the raccoons be represented as T1 and the time the second lock stalls them be T2:\nT1 = 5 minutes\nTo find T2, we use the information given:\nT2 = 3 * T1 - 3 minutes\nSubstitute the value of T1:\nT2 = 3 * 5 minutes - 3 minutes\nT2 = 15 minutes - 3 minutes\nT2 = 12 minutes\nNow, when Karen tries both locks at once, it stalls the raccoons for five times as long as the second lock alone:\nBoth locks together = 5 * T2\nSubstitute the value of T2:\nBoth locks together = 5 * 12 minutes\nBoth locks together = 60 minutes\nSo, when Karen uses both locks at the same time, they stall the raccoons for 60 minutes.",
+        "confusion_score": 0.063579425,
+        "time_consumption": 1.3362905979156494
+    },
+    {
+        "question": "Chuck breeds dogs.  He has 3 pregnant dogs.  They each give birth to 4 puppies.  Each puppy needs 2 shots and each shot costs $5.  How much did the shots cost?",
+        "answer": "He has 3*4=<<3*4=12>>12 puppies\nSo they need 12*2=<<12*2=24>>24 shots\nThat means the vaccines cost 24*5=$<<24*5=120>>120\n#### 120",
+        "reasoning": "First, determine the total number of puppies. If each of the 3 pregnant dogs gives birth to 4 puppies, then the total number of puppies is:\n3 pregnant dogs * 4 puppies/dog = 12 puppies\nEach puppy needs 2 shots, so the total number of shots needed for all the puppies is:\n12 puppies * 2 shots/puppy = 24 shots\nEach shot costs $5, so the total cost of the shots for all the puppies is:\n24 shots * $5/shot = $120\nTherefore, the shots cost Chuck a total of $120.",
+        "confusion_score": 0.07180771,
+        "time_consumption": 0.9920008182525635
+    },
+    {
+        "question": "Mike is saving up to buy a house.  He puts away 10% of his $150,000 a year salary.  He needs to save up 20% of the cost of a $450,000 house for a downpayment.  How long will it take?",
+        "answer": "He saves 150,000*.1=$<<150000*.1=15000>>15,000 per year\nHe needs 450,000*.2=$<<450000*.2=90000>>90,000\nSo he needs to save for 90,000/15,000=<<90000/15000=6>>6 years\n#### 6",
+        "reasoning": "First, let's calculate how much Mike saves per year:\nMike earns $150,000 per year and saves 10% of that. To find out how much he saves annually, we calculate 10% of $150,000:\n0.10 * $150,000 = $15,000\nSo, Mike saves $15,000 each year.\nNext, let's determine the total amount he needs for the down payment:\nThe house costs $450,000, and he needs to save 20% of that for a downpayment. To find out the down payment amount, we calculate 20% of $450,000:\n0.20 * $450,000 = $90,000\nNow, let's figure out how many years it will take Mike to save the $90,000 needed for the down payment:\nSince he saves $15,000 per year, we divide the total down payment amount by his annual savings:\n$90,000 / $15,000 = 6\nTherefore, it will take Mike 6 years to save enough for the down payment on the house.",
+        "confusion_score": 0.08862212,
+        "time_consumption": 1.1610076427459717
+    },
+    {
+        "question": "John has 3 bedroom doors and two outside doors to replace.  The outside doors cost $20 each to replace and the bedroom doors are half that cost.  How much does he pay in total?",
+        "answer": "The outside doors cost 2*$20=$<<2*20=40>>40\nEach indoor door cost $20/2=$<<20/2=10>>10\nSo all the indoor doors cost $10*3=$<<10*3=30>>30\nThat means the total cost is $40+$30=$<<40+30=70>>70\n#### 70",
+        "reasoning": "Sure, let's break it down:\n1. John has 3 bedroom doors to replace. Each bedroom door costs half the amount of an outside door. An outside door costs $20, so each bedroom door costs $20 / 2 = $10.\n2. He has 3 bedroom doors, each costing $10, so the total cost for the bedroom doors is 3 * $10 = $30.\n3. He also has 2 outside doors to replace, each costing $20. So, the total cost for the outside doors is 2 * $20 = $40.\n4. Now, we just need to add the cost of the bedroom doors and the outside doors together to get the total cost. So, $30 (bedroom doors) + $40 (outside doors) = $70.\nTherefore, John pays a total of $70 to replace all the doors.",
+        "confusion_score": 0.08874081,
+        "time_consumption": 0.7420034408569336
+    },
+    {
+        "question": "A vampire drains three people a week. His best friend is a werewolf who eats five people a week, but only fresh ones, never drained ones. How many weeks will a village of 72 people last them both?",
+        "answer": "The vampire and werewolf need 3 + 5 = <<3+5=8>>8 people a week.\nA village of 72 people will last them both 72 / 8 = <<72/8=9>>9 weeks.\n#### 9",
+        "reasoning": "To calculate how many weeks the village of 72 people will last for both the vampire and the werewolf, we need to consider both of their weekly 'diets'.\nThe vampire drains three people per week.\nThe werewolf eats five people per week, but only fresh ones, meaning he cannot eat the ones the vampire has drained.\nEvery week, the vampire will drain 3 people and the werewolf will eat 5 different people. Thus, together they will go through 3 + 5 = 8 people per week.\nNow, we divide the total number of people in the village by the total number of people they go through in a week:\n72 people / 8 people per week = 9 weeks\nTherefore, the village of 72 people will last them both for 9 weeks before they run out of people.",
+        "confusion_score": 0.08883889,
+        "time_consumption": 1.1329967975616455
+    },
+    {
+        "question": "A movie theater can hold 50 people at a time.  They charge $8.00 a ticket.  On a Tuesday night they only sold 24 tickets.  By not selling out, how much money did they lose?",
+        "answer": "The theater can hold 50 people and they charge $8.00 to watch a movie so on a sold-out night they make 50*8 = $<<50*8=400.00>>400.00\nOn Tuesday night they only sold 24 tickets at $8.00 apiece so they made 24*8 = $<<24*8=192.00>>192.00\nIf they make $400.00 on a sold-out night and they only made $192.00 on Tuesday then they lost 400-192 = $<<400-192=208.00>>208.00\n#### 208",
+        "reasoning": "If the movie theater can hold 50 people and they charge $8.00 per ticket, the maximum amount of money they could make if they sold out is:\n50 people x $8.00 per ticket = $400.00\nOn a Tuesday night, they sold 24 tickets, so they made:\n24 tickets x $8.00 per ticket = $192.00\nTo find out how much money the theater lost by not selling out, we subtract the amount they made from the maximum amount they could have made:\n$400.00 (potential earnings if sold out) - $192.00 (actual earnings) = $208.00\nSo, by not selling out, the movie theater lost $208.00.",
+        "confusion_score": 0.09049201,
+        "time_consumption": 0.7190017700195312
+    },
+    {
+        "question": "Josh buys 3 packs of string cheese.  Each piece of string cheese cost 10 cents.  Each pack has 20 string cheeses in them.  How many dollars did he pay?",
+        "answer": "Each pack cost 20*10=<<20*10=200>>200 cents\nSo each pack cost 200/100=$<<200/100=2>>2\nThat means he pays 2*3=$<<2*3=6>>6\n#### 6",
+        "reasoning": "First, let's find out the cost of one pack of string cheese:\nEach piece of string cheese costs 10 cents, and there are 20 string cheeses in each pack. So, the cost of one pack is:\n20 string cheeses/pack * 10 cents/string cheese = 200 cents/pack\nSince 100 cents make a dollar, the cost of one pack in dollars is:\n200 cents/pack ÷ 100 cents/dollar = $2/pack\nJosh buys 3 packs, so the total cost is:\n3 packs * $2/pack = $6\nTherefore, Josh paid $6 for the 3 packs of string cheese.",
+        "confusion_score": 0.09129719,
+        "time_consumption": 0.8630015850067139
+    }
+]
