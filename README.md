@@ -10,7 +10,7 @@ This repository contains the code for the paper [Instructing Large Language Mode
 python run.py --data_index 3
 ```
 
- - Run `I3C-Instruction-code/run.py` to generate the answer to the given math word problem
+ - Run `I3C-Select-code/run.py` to generate the answer to the given math word problem
 
 ```python
 python run.py --data_index 3
