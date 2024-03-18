@@ -18,6 +18,10 @@ python run.py --data_index 3
 python run.py --data_index 3
 ```
 
+## Experimental Results
+
+![image](https://github.com/wzy6642/I3C-Select/blob/main/experiments.png)
+
 ## Citing I3C
 ```markdown
 @inproceedings{wu2024I3C,
