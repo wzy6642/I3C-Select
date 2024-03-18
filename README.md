@@ -4,7 +4,7 @@
 
 This repository contains the code for the paper [Instructing Large Language Models to Identify and Ignore Irrelevant Conditions]() (Accepted to NAACL Main 2024). I3C instructs LLMs to identify and ignore irrelevant conditions. I3C-Select selects the most confusing problems and their generated reasoning paths as demonstrations for few-shot learning.
 
-![image](https://github.com/wzy6642/PRP/blob/main/img/framework.PNG)
+![image](https://github.com/wzy6642/I3C-Select/blob/main/framework.png)
 
  - Run `I3C-Instruction-code/run.py` to generate I3C instruction
 
