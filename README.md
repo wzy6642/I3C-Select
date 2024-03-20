@@ -24,11 +24,11 @@ python run.py --data_index 3
 
 ## Citing I3C
 ```markdown
-@inproceedings{wu2024I3C,
+@inproceedings{wu2024i3c,
   title={Instructing Large Language Models to Identify and Ignore Irrelevant Conditions},
-  author={Wu, Zhenyu and Jiang, Meng and Shen, Chao},
+  author={Zhenyu Wu and Chao Shen and Meng Jiang},
   booktitle={Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-  year={2024}
+  year={2024},
 }
 ```
 
